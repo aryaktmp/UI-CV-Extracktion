@@ -96,7 +96,3 @@ This Angular app interacts with the **FastAPI backend**. Make sure the backend i
 2. **File is sent to the FastAPI backend**.
 3. **API returns extracted text and Base64 of the `.txt` file`**.
 4. **Frontend automatically downloads the `.txt` file**.
-
-## License
-
-MIT License
