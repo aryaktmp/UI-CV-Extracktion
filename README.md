@@ -50,8 +50,8 @@ src/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-repository/pdf-to-text-angular.git
-cd pdf-to-text-angular
+git clone https://github.com/aryaktmp/UI-CV-Extracktion.git UI-PDF-Converter
+cd UI-PDF-Converter
 ```
 
 ### 2. Install Dependencies
