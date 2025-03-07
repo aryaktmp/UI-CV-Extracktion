@@ -1,0 +1,11 @@
+<input type="file" (change)="onFileSelected($event)" accept=".pdf" />
+<div *ngIf="_pdfConverterViewModel.convertedText">
+  <h2>Hasil Konversi:</h2>
+  <pre>{{ _pdfConverterViewModel.convertedText }}</pre>
+</div>
+<div *ngIf="_pdfConverterViewModel.errorMessage">
+  <p style="color: red">Error: {{ _pdfConverterViewModel.errorMessage }}</p>
+</div>
+<div *ngIf="_pdfConverterViewModel.isLoading">
+  <p>Loading...</p>
+</div>
